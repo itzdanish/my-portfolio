@@ -72,6 +72,7 @@ export default function Portfolio() {
               <a
                 href="https://github.com/itzdanish93"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="bg-cyan-400 text-black px-7 py-4 rounded-2xl font-semibold hover:scale-105 transition"
               >
                 View Projects
@@ -80,6 +81,7 @@ export default function Portfolio() {
               <a
                 href="https://linkedin.com/in/danish-khan-026a65109"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="border border-white/20 bg-white/5 backdrop-blur px-7 py-4 rounded-2xl hover:bg-white/10 transition"
               >
                 LinkedIn
@@ -209,7 +211,9 @@ export default function Portfolio() {
 
       {/* Experience */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-16">
-        <h2 className="text-4xl font-bold mb-10">Professional Experience</h2>
+        <h2 className="text-4xl font-bold mb-10">
+          Professional Experience
+        </h2>
 
         <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-6">
@@ -232,17 +236,21 @@ export default function Portfolio() {
               • Performed root cause analysis on enterprise data-related issues
               and improved application stability.
             </p>
+
             <p>
               • Automated business processes reducing manual effort by 60%.
             </p>
+
             <p>
               • Built and maintained Oracle EBS solutions using Forms, Reports,
               and OAF.
             </p>
+
             <p>
               • Collaborated with cross-functional teams to optimize business
               workflows and data operations.
             </p>
+
             <p>
               • Worked in Agile teams using Git and Jira.
             </p>
@@ -253,7 +261,9 @@ export default function Portfolio() {
       {/* Projects */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-16">
         <div className="flex items-center justify-between mb-10">
-          <h2 className="text-4xl font-bold">Featured Projects</h2>
+          <h2 className="text-4xl font-bold">
+            Featured Projects
+          </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -292,7 +302,9 @@ export default function Portfolio() {
 
       {/* Certifications */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-16">
-        <h2 className="text-4xl font-bold mb-10">Certifications</h2>
+        <h2 className="text-4xl font-bold mb-10">
+          Certifications
+        </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
           {[
@@ -314,13 +326,16 @@ export default function Portfolio() {
 
       {/* Education */}
       <section className="max-w-7xl mx-auto px-6 md:px-12 py-16">
-        <h2 className="text-4xl font-bold mb-10">Education</h2>
+        <h2 className="text-4xl font-bold mb-10">
+          Education
+        </h2>
 
         <div className="space-y-6">
           <div className="bg-zinc-900 border border-zinc-800 rounded-3xl p-6">
             <h3 className="text-xl font-semibold">
               MSc in Computational Science
             </h3>
+
             <p className="text-gray-400 mt-2">
               Laurentian University • 2025 - 2026 • CGPI 9.22
             </p>
@@ -330,6 +345,7 @@ export default function Portfolio() {
             <h3 className="text-xl font-semibold">
               Bachelor of Engineering in Computer Engineering
             </h3>
+
             <p className="text-gray-400 mt-2">
               Mumbai University • 2018 - 2021
             </p>
@@ -341,20 +357,32 @@ export default function Portfolio() {
       <footer className="border-t border-zinc-800 mt-16">
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
-            <h3 className="text-2xl font-bold">Danish Khan</h3>
+            <h3 className="text-2xl font-bold">
+              Danish Khan
+            </h3>
+
             <p className="text-gray-400 mt-1">
               Data Engineering • Cloud • Analytics
             </p>
           </div>
 
           <div className="flex gap-6 text-gray-400">
-            <a href="mailto:danishdsk6699@gmail.com">Email</a>
-            <a href="https://github.com/itzdanish93" target="_blank">
+            <a href="mailto:danishdsk6699@gmail.com">
+              Email
+            </a>
+
+            <a
+              href="https://github.com/itzdanish93"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GitHub
             </a>
+
             <a
               href="https://linkedin.com/in/danish-khan-026a65109"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LinkedIn
             </a>
